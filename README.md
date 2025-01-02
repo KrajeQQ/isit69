@@ -31,16 +31,20 @@ You don’t need npm for this! Just clone the repository or include the library 
 ## Usage 🛠️
 
 ### Browser Example:
-```<script>
+```
+<script>
   console.log(NumberAnalyzer.analyzeNumber(69)); // true
   console.log(NumberAnalyzer.analyzeNumber(42)); // false
-</script>```
+</script>
+```
 
 ### Node.js Example:
-```const NumberAnalyzer = require('./NumberAnalyzer.js');
+```
+const NumberAnalyzer = require('./NumberAnalyzer.js');
 
 console.log(NumberAnalyzer.analyzeNumber(69)); // true
-console.log(NumberAnalyzer.analyzeNumber(42)); // false```
+console.log(NumberAnalyzer.analyzeNumber(42)); // false
+```
 
 ---
 

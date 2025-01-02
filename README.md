@@ -18,29 +18,29 @@ A JavaScript library that determines whether a number is exactly **69**. Simple 
 You don’t need npm for this! Just clone the repository or include the library directly in your project:
 
 ### Clone the Repo:
-git clone https://github.com/KrajeQQ/isit69.git
+```git clone https://github.com/KrajeQQ/isit69.git```
 
 ### Include in HTML:
-<script src="https://raw.githubusercontent.com/KrajeQQ/isit69/main/NumberAnalyzer.js"></script>
+```<script src="https://raw.githubusercontent.com/KrajeQQ/isit69/main/NumberAnalyzer.js"></script>```
 
 ### Use in Node.js:
-const NumberAnalyzer = require('./NumberAnalyzer.js');
+```const NumberAnalyzer = require('./NumberAnalyzer.js');```
 
 ---
 
 ## Usage 🛠️
 
 ### Browser Example:
-<script>
+```<script>
   console.log(NumberAnalyzer.analyzeNumber(69)); // true
   console.log(NumberAnalyzer.analyzeNumber(42)); // false
-</script>
+</script>```
 
 ### Node.js Example:
-const NumberAnalyzer = require('./NumberAnalyzer.js');
+```const NumberAnalyzer = require('./NumberAnalyzer.js');
 
 console.log(NumberAnalyzer.analyzeNumber(69)); // true
-console.log(NumberAnalyzer.analyzeNumber(42)); // false
+console.log(NumberAnalyzer.analyzeNumber(42)); // false```
 
 ---
 

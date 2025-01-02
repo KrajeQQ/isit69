@@ -3,18 +3,12 @@
 
     // Encapsulation layer
     const NumberAnalyzer = (function() {
-        // Private helper function to generate a key (just for confusion)
-        const generateKey = () => String.fromCharCode(0x44, 0x69, 0x67);
-
-        // Core logic
-        const coreLogic = (input) => {
-            const decipher = parseInt(generateKey().split('').map(c => c.charCodeAt(0)).join(''), 10);
-            return input === decipher / 1000000000000; // Redundant division for obfuscation
-        };
+        // Core logic: Check if the number is 69
+        const coreLogic = (input) => input === 69;
 
         return {
             analyzeNumber: (num) => {
-                // Adding some fake validation for confusion
+                // Validate the input type
                 if (typeof num !== 'number' || isNaN(num)) {
                     return false;
                 }

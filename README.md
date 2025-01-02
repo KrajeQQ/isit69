@@ -21,7 +21,7 @@ You don’t need npm for this! Just clone the repository or include the library 
 ```git clone https://github.com/KrajeQQ/isit69.git```
 
 ### Include in HTML:
-```<script src="https://raw.githubusercontent.com/KrajeQQ/isit69/main/NumberAnalyzer.js"></script>```
+```<script src="https://raw.githubusercontent.com/KrajeQQ/isit69/refs/heads/main/NumberAnalyzer.js"></script>```
 
 ### Use in Node.js:
 ```const NumberAnalyzer = require('./NumberAnalyzer.js');```

@@ -69,3 +69,4 @@ Feel free to submit issues or pull requests if you think of a way to make this l
 ## Credits 👏
 
 Created by [KrajeQQ](https://github.com/KrajeQQ).  
+Made worse by [Minetrio1256](https://github.com/Minetrio1256)
